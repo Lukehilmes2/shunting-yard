@@ -1,0 +1,5 @@
+There were two bugs in the library in the peekAtStack function
+and the popFromStack function when peeking or popping from an
+empty stack. There were no checks in the functions checking
+to see if the stack was empty before peeking or popping which
+throws an error. 
